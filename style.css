@@ -23,5 +23,19 @@ gap: 20px;}
 
 .menu a{
     font: size 1.2em;
-    color
+    color:white;
+    text-descoration:none;
+    padding: 8px 12px;
 }
+
+.menu a:hover {
+    background-color: #f7e1ee;
+    border-radius: 4px;
+    color:#000;
+}
+
+/* responsivo para telas menores*/
+@media (max-width: 568px){
+    .cabecalho{
+        flex-direction:column;
+        align-items: flex-start;
